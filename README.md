@@ -11,9 +11,9 @@
 ![image](https://user-images.githubusercontent.com/115689064/236681247-b8d9583a-45c9-481d-9128-04a0c0228fc2.png)
 
 4.Matematika Volume
-![image](https://user-images.githubusercontent.com/115689064/236682670-6d2dffaf-9858-4cd2-b867-697a0f754c84.png)
+![image](https://user-images.githubusercontent.com/115689064/236683950-247b74bb-efbf-4a53-b05e-1fb2e64c0866.png)
 
 4. Fisika Menghitung Percepatan,Masa dan Gaya
-![image](https://user-images.githubusercontent.com/115689064/236683314-1f676cdf-8f28-41cc-afdb-b95a69ff1b6f.png)
+![image](https://user-images.githubusercontent.com/115689064/236683878-c720d007-2d4a-40b0-a316-506b9a3419f5.png)
 
 
