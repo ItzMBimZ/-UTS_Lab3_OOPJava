@@ -6,3 +6,6 @@
 
 2. Balik Perhuruf
 ![image](https://user-images.githubusercontent.com/115689064/236680190-a7a7fd03-f580-47c7-a2a7-e6b5117bbdc7.png)
+
+3.Ganjil
+![image](https://user-images.githubusercontent.com/115689064/236681247-b8d9583a-45c9-481d-9128-04a0c0228fc2.png)
