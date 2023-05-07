@@ -1,0 +1,48 @@
+// Contoh kelas Java
+class Rectangle {
+    private int width;
+    private int height;
+
+    // Konstruktor tanpa argumen
+    public Rectangle() {
+        width = 0;
+        height = 0;
+    }
+
+    // Konstruktor dengan argumen
+    public Rectangle(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    // Metode untuk menghitung luas persegi panjang
+    public int calculateArea() {
+        return width * height;
+    }
+}
+
+// Program utama
+public class Main {
+    public static void main(String[] args) {
+        // Membuat objek Rectangle menggunakan konstruktor tanpa argumen
+        Rectangle rectangle1 = new Rectangle();
+        System.out.println("Luas rectangle1: " + rectangle1.calculateArea());
+
+        // Membuat objek Rectangle menggunakan konstruktor dengan argumen
+        Rectangle rectangle2 = new Rectangle(5, 10);
+        System.out.println("Luas rectangle2: " + rectangle2.calculateArea());
+    }
+}
+
+
+// Dalam contoh program di atas, terdapat kelas Rectangle yang merepresentasikan persegi panjang. Kelas ini memiliki dua variabel instance yaitu width (lebar) dan height (tinggi). Terdapat dua konstruktor yang digunakan untuk menginisialisasi nilai width dan height.
+
+Konstruktor pertama adalah konstruktor tanpa argumen yang akan mengatur width dan height menjadi 0. Konstruktor kedua adalah konstruktor dengan argumen yang menerima nilai width dan height dari luar.
+
+Kelas Rectangle juga memiliki metode calculateArea() yang digunakan untuk menghitung luas persegi panjang.
+
+Di dalam program utama (Main), kita membuat dua objek Rectangle menggunakan kedua konstruktor yang tersedia. Objek pertama (rectangle1) dibuat menggunakan konstruktor tanpa argumen, sehingga nilai width dan height akan menjadi 0. Objek kedua (rectangle2) dibuat menggunakan konstruktor dengan argumen, sehingga nilai width dan height sesuai dengan argumen yang diberikan.
+
+Kemudian, kita memanggil metode calculateArea() pada masing-masing objek untuk menghitung dan menampilkan luas persegi panjang.
+
+Hasil output program ini akan menampilkan luas persegi panjang dari kedua objek Rectangle yang telah dibuat.
