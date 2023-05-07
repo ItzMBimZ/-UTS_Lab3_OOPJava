@@ -1,5 +1,14 @@
 # -UTS_Lab3_OOPJava
-1. Class adalah template atau blueprint dari sebuah objek. Objek adalah sesuatu yang dihasilkan dari class. Constructor adalah metode yang digunakan untuk menginisialisasi objek. Method overloading adalah fungsi yang dapat menjalankan beberapa method dengan nama yang sama namun memiliki parameter yang berbeda. Method setter dan getter adalah method yang berfungsi untuk mengakses dan memperbarui nilai sebuah variabel dalam class.
+Nomer 1
+Class adalah template atau blueprint dari sebuah objek atau Class adalah sebuah blueprint atau template yang digunakan untuk membuat objek. Class mendefinisikan atribut (data) dan metode (fungsi) yang dimiliki oleh objek tersebut.
+
+Object adalah suatu instance atau wujud nyata dari class. Objek memiliki atribut dan metode yang sama dengan class, tetapi nilai dari atribut-atribut tersebut bisa berbeda-beda antara satu objek dengan objek lainnya atau sesuatu yang dihasilkan dari class. 
+
+Constructor adalah metode yang digunakan untuk menginisialisasi objek atau sebuah metode khusus yang digunakan untuk membuat objek baru dari sebuah class. Constructor biasanya digunakan untuk menginisialisasi nilai awal dari atribut-atribut dalam objek.
+
+Method overloading adalah fungsi yang dapat menjalankan beberapa method dengan nama yang sama namun memiliki parameter yang berbeda atau kemampuan untuk membuat beberapa metode dengan nama yang sama, tetapi dengan parameter-parameter yang berbeda. Dalam Java, method overloading memungkinkan kita untuk memanggil metode dengan nama yang sama, tetapi dengan parameter yang berbeda sesuai dengan kebutuhan.
+
+Method setter dan getter adalah method yang berfungsi untuk mengakses dan memperbarui nilai sebuah variabel dalam class atau metode yang digunakan untuk mengakses atau memodifikasi nilai dari atribut dalam sebuah objek. Method setter digunakan untuk mengubah nilai atribut, sedangkan method getter digunakan untuk mengambil nilai dari atribut tersebut. Method setter dan getter biasanya digunakan untuk menjaga keamanan data dalam sebuah objek, sehingga data tersebut tidak bisa diubah secara langsung dari luar objek.
 
 2. Balik Perkata
 ![image](https://user-images.githubusercontent.com/115689064/236680067-10a4e644-183f-4252-b176-29a51f9bc47b.png)
