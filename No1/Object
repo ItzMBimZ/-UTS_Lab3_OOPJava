@@ -1,0 +1,36 @@
+// Contoh kelas Java
+class Biodata {
+    private String nama;
+    private int umur;
+
+    public Biodata(String nama, int umur) {
+        this.nama = nama;
+        this.umur = umur;
+    }
+
+    public void displayInfo() {
+        System.out.println("Nama: " + nama);
+        System.out.println("Umur: " + umur);
+    }
+}
+
+// Program utama
+public class Main {
+    public static void main(String[] args) {
+        // Membuat objek Person
+        Biodata biodata1 = new Biodata("Bima", 21);
+        Biodata biodata2 = new Biodata("Reggy", 20);
+
+        // Memanggil metode displayInfo() pada objek Person
+        biodata1.displayInfo();
+        System.out.println();
+        biodata2.displayInfo();
+    }
+}
+
+
+//Dalam contoh program di atas, terdapat kelas Biodata yang memiliki dua variabel instance, yaitu nama (nama) dan umur (usia). Terdapat juga konstruktor untuk menginisialisasi nilai name dan age. Metode displayInfo() digunakan untuk menampilkan informasi nama dan usia ke konsol.
+
+Di dalam program utama (Main), kita membuat dua objek Person dengan nilai yang berbeda. Kemudian, kita memanggil metode displayInfo() pada masing-masing objek untuk menampilkan informasi mereka ke konsol.
+
+Hasil output program ini akan menampilkan informasi nama dan usia dari kedua objek Person yang telah dibuat.
