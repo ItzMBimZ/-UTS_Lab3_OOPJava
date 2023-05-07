@@ -44,9 +44,8 @@ public class Main {
 }
 
 
-//Tentu, berikut ini adalah contoh program Java menggunakan metode setter dan getter:
+ // berikut  adalah contoh program Java menggunakan metode setter dan getter:
 
-```java
 // Contoh kelas Java
 class Person {
     private String name;
