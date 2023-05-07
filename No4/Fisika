@@ -1,1 +1,54 @@
+// Kelas PhysicsCalc untuk menghitung rumus fisika
+class PhysicsCalc {
+    private double percepatan;
+    private double masa;
+   
+
+    // Konstruktor untuk PhysicsCalc dengan nilai acceleration dan mass
+    public PhysicsCalc(double percepatan, double masa) {
+        this.percepatan = percepatan;
+        this.masa = masa;
+    }
+
+    // Metode overloading untuk menghitung gaya dengan menggunakan rumus F = m * a
+    public double calculateGaya() {
+        return masa * percepatan;
+    }
+
+    // Metode overloading untuk menghitung percepatan  dengan menggunakan rumus a = F / m
+    public double calculatePercepatan() {
+        return percepatan;
+    }
+
+    // Metode overloading untuk menghitung masa dengan menggunakan rumus m = F / a
+    public double calculateMasa() {
+        return masa;
+    }
+
+    // Metode untuk menampilkan hasil perhitungan ke layar
+    public void displayResult() {
+        System.out.println("Percepatan: " + calculatePercepatan() + " m/s^2");
+        System.out.println("Masa: " + calculateMasa() + " kg");
+        System.out.println("Gaya: " + calculateGaya() + " N");
+    }
+}
+
+// Program utama
+public class Main {
+    public static void main(String[] args) {
+        // Membuat objek PhysicsCalc dengan nilai acceleration dan mass
+        PhysicsCalc calc1 = new PhysicsCalc(9.8, 5.0);
+        PhysicsCalc calc2 = new PhysicsCalc(20.0, 2.5);
+
+        // Menampilkan hasil perhitungan untuk objek pertama
+        System.out.println("Hasil Perhitungan 1:");
+        calc1.displayResult();
+
+        System.out.println();
+
+        // Menampilkan hasil perhitungan untuk objek kedua
+        System.out.println("Hasil Perhitungan 2:");
+        calc2.displayResult();
+    }
+}
 
