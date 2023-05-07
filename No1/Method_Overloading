@@ -1,0 +1,86 @@
+// Contoh kelas Java
+class Calculator {
+    // Metode overload untuk menjumlahkan dua bilangan integer
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    // Metode overload untuk menjumlahkan tiga bilangan integer
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    // Metode overload untuk menjumlahkan dua bilangan desimal
+    public double add(double a, double b) {
+        return a + b;
+    }
+}
+
+// Program utama
+public class Main {
+    public static void main(String[] args) {
+        Calculator calculator = new Calculator();
+
+        // Memanggil metode add dengan dua bilangan integer
+        int sum1 = calculator.add(5, 10);
+        System.out.println("Hasil penjumlahan 5 + 10 = " + sum1);
+
+        // Memanggil metode add dengan tiga bilangan integer
+        int sum2 = calculator.add(5, 10, 15);
+        System.out.println("Hasil penjumlahan 5 + 10 + 15 = " + sum2);
+
+        // Memanggil metode add dengan dua bilangan desimal
+        double sum3 = calculator.add(2.5, 3.5);
+        System.out.println("Hasil penjumlahan 2.5 + 3.5 = " + sum3);
+    }
+}
+
+
+//Tentu, berikut ini adalah contoh program Java menggunakan metode overloading:
+
+```java
+// Contoh kelas Java
+class Calculator {
+    // Metode overload untuk menjumlahkan dua bilangan integer
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    // Metode overload untuk menjumlahkan tiga bilangan integer
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    // Metode overload untuk menjumlahkan dua bilangan desimal
+    public double add(double a, double b) {
+        return a + b;
+    }
+}
+
+// Program utama
+public class Main {
+    public static void main(String[] args) {
+        Calculator calculator = new Calculator();
+
+        // Memanggil metode add dengan dua bilangan integer
+        int sum1 = calculator.add(5, 10);
+        System.out.println("Hasil penjumlahan 5 + 10 = " + sum1);
+
+        // Memanggil metode add dengan tiga bilangan integer
+        int sum2 = calculator.add(5, 10, 15);
+        System.out.println("Hasil penjumlahan 5 + 10 + 15 = " + sum2);
+
+        // Memanggil metode add dengan dua bilangan desimal
+        double sum3 = calculator.add(2.5, 3.5);
+        System.out.println("Hasil penjumlahan 2.5 + 3.5 = " + sum3);
+    }
+}
+```
+
+Dalam contoh program di atas, terdapat kelas `Calculator` yang memiliki tiga metode overload `add()`. Metode overload adalah metode dengan nama yang sama tetapi memiliki parameter yang berbeda.
+
+Metode `add()` pertama menerima dua parameter integer `a` dan `b` dan mengembalikan hasil penjumlahan keduanya. Metode `add()` kedua menerima tiga parameter integer `a`, `b`, dan `c` dan mengembalikan hasil penjumlahan ketiganya. Metode `add()` ketiga menerima dua parameter desimal `a` dan `b` dan mengembalikan hasil penjumlahan keduanya.
+
+Di dalam program utama (`Main`), kita membuat objek `Calculator` dan memanggil metode `add()` dengan berbagai argumen. Pemanggilan metode `add()` akan disesuaikan dengan parameter yang diterima oleh metode tersebut.
+
+Hasil output program ini akan menampilkan hasil penjumlahan dari masing-masing pemanggilan metode `add()`, sesuai dengan parameter yang diberikan.
