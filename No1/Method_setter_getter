@@ -1,0 +1,102 @@
+// Contoh kelas Java
+class Person {
+    private String name;
+    private int age;
+
+    // Metode setter untuk mengatur nilai name
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Metode getter untuk mendapatkan nilai name
+    public String getName() {
+        return name;
+    }
+
+    // Metode setter untuk mengatur nilai age
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // Metode getter untuk mendapatkan nilai age
+    public int getAge() {
+        return age;
+    }
+}
+
+// Program utama
+public class Main {
+    public static void main(String[] args) {
+        Person person = new Person();
+
+        // Mengatur nilai menggunakan metode setter
+        person.setName("Bima");
+        person.setAge(21);
+
+        // Mendapatkan nilai menggunakan metode getter
+        String name = person.getName();
+        int age = person.getAge();
+
+        // Menampilkan nilai
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+}
+
+
+//Tentu, berikut ini adalah contoh program Java menggunakan metode setter dan getter:
+
+```java
+// Contoh kelas Java
+class Person {
+    private String name;
+    private int age;
+
+    // Metode setter untuk mengatur nilai name
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Metode getter untuk mendapatkan nilai name
+    public String getName() {
+        return name;
+    }
+
+    // Metode setter untuk mengatur nilai age
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // Metode getter untuk mendapatkan nilai age
+    public int getAge() {
+        return age;
+    }
+}
+
+// Program utama
+public class Main {
+    public static void main(String[] args) {
+        Person person = new Person();
+
+        // Mengatur nilai menggunakan metode setter
+        person.setName("John");
+        person.setAge(25);
+
+        // Mendapatkan nilai menggunakan metode getter
+        String name = person.getName();
+        int age = person.getAge();
+
+        // Menampilkan nilai
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+}
+```
+
+Dalam contoh program di atas, terdapat kelas `Person` yang memiliki dua variabel instance yaitu `name` (nama) dan `age` (usia). Terdapat metode setter untuk mengatur nilai `name` dan `age`, serta metode getter untuk mendapatkan nilai `name` dan `age`.
+
+Di dalam program utama (`Main`), kita membuat objek `Person`. Kemudian, menggunakan metode setter (`setName()` dan `setAge()`), kita mengatur nilai `name` menjadi "Bima" dan nilai `age` menjadi 21.
+
+Selanjutnya, kita menggunakan metode getter (`getName()` dan `getAge()`) untuk mendapatkan nilai `name` dan `age` dari objek `Person`. Nilai-nilai ini kemudian ditampilkan ke konsol menggunakan perintah `System.out.println()`.
+
+Hasil output program ini akan menampilkan nilai `name` dan `age` yang telah diatur dan diperoleh melalui metode getter.
