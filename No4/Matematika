@@ -1,1 +1,33 @@
+class Balok {
+    double panjang, lebar, tinggi;
+    
+    Balok (double p, double l, double t){
+        panjang = p;
+        lebar = l;
+        tinggi = t;
+    }
+    
+    
+    Balok(){
+        panjang = lebar = tinggi = 0;
+    }
+    
+    Balok(double len){
+        panjang = lebar = tinggi = len;
+    }
+    
+    double volume(){
+        return panjang * lebar * tinggi;
+    }
+}
 
+public class Test{
+    public static void main (String args[]){
+        Balok balok1= new Balok (3, 5, 10);
+        
+        double vol;
+        
+        vol = balok1.volume();
+        System.out.println(" Volume dari Balok adalah " + vol);
+    }
+}
