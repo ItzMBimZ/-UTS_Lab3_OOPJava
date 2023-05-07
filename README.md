@@ -1,5 +1,6 @@
 # -UTS_Lab3_OOPJava
 Nomer 1
+
 Class adalah template atau blueprint dari sebuah objek atau Class adalah sebuah blueprint atau template yang digunakan untuk membuat objek. Class mendefinisikan atribut (data) dan metode (fungsi) yang dimiliki oleh objek tersebut.
 
 Object adalah suatu instance atau wujud nyata dari class. Objek memiliki atribut dan metode yang sama dengan class, tetapi nilai dari atribut-atribut tersebut bisa berbeda-beda antara satu objek dengan objek lainnya atau sesuatu yang dihasilkan dari class. 
